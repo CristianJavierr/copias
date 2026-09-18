@@ -123,7 +123,7 @@ svg { height: 1rem; width: 1rem; }
 .service-group-label { font-family: var(--mono); font-size: .62rem; letter-spacing: .07em; margin: 0 0 .8rem; text-transform: uppercase; }
 .service-group-head h3 { font-size: clamp(2rem, 3.4vw, 3.4rem); letter-spacing: -.09em; line-height: .9; margin: 0; }
 .service-group-copy { font-size: .78rem; line-height: 1.5; margin: 1.5rem 0 0; max-width: 190px; opacity: .68; }
-.service-group-list { display: grid; gap: 1rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.service-group-list { display: grid; gap: 1rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .service-group.blue .service-group-head h3 { color: #3283b9; }
 .service-group.cream .service-group-head h3 { color: #9b7f3d; }
 .service-group.pink .service-group-head h3 { color: var(--pink); }
@@ -139,7 +139,7 @@ svg { height: 1rem; width: 1rem; }
 .service-media { aspect-ratio: 4 / 2.25; margin: .9rem -.9rem 0; overflow: hidden; }
 .service-media img { display: block; filter: saturate(.78) contrast(1.03); height: 100%; object-fit: cover; transition: filter .4s ease, transform .6s cubic-bezier(.2,.8,.2,1); width: 100%; }
 .service-card:hover .service-media img { filter: saturate(1) contrast(1.04); transform: scale(1.05); }
-.service-card.is-featured { grid-column: span 2; }
+.service-card.is-featured { grid-column: span 3; }
 .service-card.is-featured .service-media { aspect-ratio: 2.45 / 1; }
 .service-bottom { margin-top: 1.8rem; }
 .service-card h3 { font-size: clamp(1.35rem, 2vw, 2rem); letter-spacing: -.08em; line-height: .95; margin: 0 0 .8rem; max-width: 210px; }
@@ -219,6 +219,7 @@ svg { height: 1rem; width: 1rem; }
   .service-group-head { margin-bottom: 2.25rem; position: static; }
   .service-group-copy { max-width: 300px; }
   .service-group-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .service-card.is-featured { grid-column: span 2; }
   .process { display: block; padding: 5.5rem 7vw; }
   .process-steps { margin-top: 4rem; }
   .map-section { display: block; padding: 5.5rem 7vw; }
