@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158 40" role="img" aria-labelledby="title desc">
+  <title id="title">Plan Copias</title>
+  <desc id="desc">Logo de Plan Copias con una C multicolor</desc>
+  <g fill="#5b5b5d" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" letter-spacing="-1.4">
+    <text x="0" y="28">Plan</text>
+    <text x="83" y="28">opias</text>
+  </g>
+  <g fill="none" stroke-linecap="round" transform="translate(54 5)">
+    <path d="M24 4a15.5 15.5 0 1 0 0 22" stroke="#62b5df" stroke-width="4.5"/>
+    <path d="M24 7a12.5 12.5 0 1 0 0 16" stroke="#f3d13b" stroke-width="4"/>
+    <path d="M24 10a9.5 9.5 0 1 0 0 10" stroke="#e84068" stroke-width="3.5"/>
+    <path d="M25 11.5a8 8 0 1 0 0 7" stroke="#57575a" stroke-width="2.5"/>
+  </g>
+</svg>
